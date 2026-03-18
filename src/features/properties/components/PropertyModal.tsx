@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, MapPin, Bed, Bath, Maximize, Phone, MessageCircle, Calendar, Play } from 'lucide-react';
+import { X, MapPin, Bed, Bath, Maximize, MessageCircle, Calendar, Play } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Property } from '../types';
 

@@ -1,12 +1,7 @@
 import React from 'react';
 import { Info, CheckCircle, AlertTriangle, XCircle, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-
-export interface Notification {
-  title: string;
-  message: string;
-  type: 'info' | 'success' | 'warning' | 'error';
-}
+import { Notification } from '../types';
 
 interface NotificationModalProps {
   notification: Notification | null;
