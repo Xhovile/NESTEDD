@@ -89,13 +89,16 @@ const FeaturedListingsSection: React.FC<FeaturedListingsSectionProps> = ({
           </AnimatePresence>
         </motion.div>
 
-        {filteredProperties.length > 0 && (
-          <div className="mt-16 text-center">
-            <button className="px-12 py-4 bg-zinc-900 dark:bg-zinc-100 text-white dark:text-zinc-900 font-bold rounded-2xl shadow-xl hover:scale-105 transition-all">
-              View All Properties
-            </button>
-          </div>
-        )}
+ {filteredProperties.length > 0 && (
+  <div className="mt-16 text-center">
+    <Link
+      to="/listings"
+      className="inline-flex px-12 py-4 bg-zinc-900 dark:bg-zinc-100 text-white dark:text-zinc-900 font-bold rounded-2xl shadow-xl hover:scale-105 transition-all"
+    >
+      View All Properties
+    </Link>
+  </div>
+)}
       </div>
     </section>
   );
