@@ -10,7 +10,6 @@ import NotificationModal from '../features/notifications/components/Notification
 
 import { PROPERTIES } from '../features/properties/data/properties';
 import { Property } from '../features/properties/types';
-import { SearchFilters } from '../features/search/types';
 
 import { useFavorites } from '../features/favorites/hooks/useFavorites';
 import { useNotifications } from '../features/notifications/hooks/useNotifications';
