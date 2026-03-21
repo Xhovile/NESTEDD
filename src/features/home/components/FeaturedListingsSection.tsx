@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Search } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 import PropertyCard from '../../properties/components/PropertyCard';
 import { Property } from '../../properties/types';
